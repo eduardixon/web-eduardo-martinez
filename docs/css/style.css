@@ -11,6 +11,32 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.Titulo{
+  font-size: 60px;
+  position: relative;
+  text-align: center;
+  top: 140px;  
+  color: #ffffff;
+}
+.Subtitulo{
+  text-align: center;
+  position: relative;
+  top: 150px;
+  font-size: 25px;
+  color: #ffffff;
+}
+h4{
+  font-size: 18px;
+  position: relative;
+  text-align: center;
+  top: 170px;  
+  color: #ffffff;
+}
+.Topico{
+  margin: 50px;
+  padding: 100px;
+  position: relative;
+}
 .navMenu {
   position: absolute;
   top: 5%;
@@ -262,7 +288,7 @@ body {
 .container {
   width: 1100px;
   position: relative;
-  top: 300px;
+  top: 250px;
   left: 420px;
   display: flex;
   justify-content: space-between;
