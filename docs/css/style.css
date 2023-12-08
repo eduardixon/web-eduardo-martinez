@@ -32,7 +32,9 @@ h4{
   top: 170px;  
   color: #ffffff;
   margin: 20px;
+
 }
+
 .Topico{
   margin: 50px;
   padding: 100px;
@@ -425,4 +427,25 @@ img{
   text-align: left; 
   margin-left: 750px; 
   color: #ffffff;
+}
+.imgizq{
+  position: relative;
+  top: 150px;
+  left: 400px;
+}
+.imgder{
+  position: relative;
+  top: 100px;
+  left: 800px;
+}
+button {
+  background-color: #4CAF50; /* Color de fondo verde */
+  color: white; /* Color del texto blanco */
+  padding: 10px 15px; /* Espaciado interno del botón */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Esquinas redondeadas */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  position: relative;
+  left: 110px;
+  bottom: 100px;
 }

@@ -17,9 +17,32 @@
       <a href="./contact.html">Contact</a>
       <a href="./about.html">About</a>
       <div class="dot"></div>
-        <div class="dot"></div>
       </nav>
+      <h1 class="Subtitulo">About me</h1>
+      <h4 class="textoabout"> 
+        Hey fellow wanderers! I'm Edu, an 18-year-old enthusiast embarking on the thrilling adventure called life. My world is a blend of harmonious melodies, intricate algorithms, pixelated realms, and the serene embrace of nature.        
+      </h4><h4><br>🎶 Musical Equations:In the symphony of life, I find my rhythm through the language of music. Whether I'm strumming the strings of my guitar or diving into the beats of my favorite tracks, music is the soundtrack that colors the canvas of my days.
+      </h4><h4><br>💻 Code Crafting:In the digital realm, I transform ideas into reality through the art of programming. Lines of code are my paintbrush, and the canvas is a world waiting to be brought to life. From web development to game design, I revel in the magic of turning concepts into interactive experiences.
+    </h4><h4><br>🎮 Gaming Odyssey:When the pixels align, and the virtual worlds beckon, you'll find me on a gaming odyssey. Video games are not just a pastime; they're portals to fantastical realms where challenges are conquered, stories unfold, and friendships are forged.
+      </h4>
+      <img class="imgizq" src="../images/pic3.jpg" alt="Smart City Image 2">
+      <img class="imgder" src="../images/pic4.png" alt="Smart City Image 2">
       
+      <button onclick="descargarCV()">Descargar CV</button>
+
+      <script>
+        function descargarCV() {
+            // Puedes cambiar "ruta/al/archivo.pdf" por la URL o ruta de tu propio archivo PDF
+            var pdfURL = "../pdf/My CV.pdf";
+
+            var a = document.createElement("a");
+            a.href = pdfURL;
+            a.download = "mycv.pdf"; // Puedes cambiar el nombre del archivo aquí
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+        }
+    </script>
 </body>
 
 
