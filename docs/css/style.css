@@ -31,6 +31,7 @@ h4{
   text-align: center;
   top: 170px;  
   color: #ffffff;
+  margin: 20px;
 }
 .Topico{
   margin: 50px;
@@ -405,3 +406,23 @@ h4{
   color: #414141;
 }  
 
+.texto1{
+  position: relative;
+  margin-top: 100px;
+  text-align: center;
+  color: #ffffff;
+  padding: 30px;
+}
+
+
+img{
+  max-width: 350px; max-height: 350px; margin: 40px;
+}
+
+.linksreferencias{
+  font-size: 18px;
+  position: relative;
+  text-align: left; 
+  margin-left: 750px; 
+  color: #ffffff;
+}
