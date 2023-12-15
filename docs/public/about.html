@@ -32,12 +32,10 @@
 
       <script>
         function descargarCV() {
-            // Puedes cambiar "ruta/al/archivo.pdf" por la URL o ruta de tu propio archivo PDF
             var pdfURL = "../pdf/My CV.pdf";
-
             var a = document.createElement("a");
             a.href = pdfURL;
-            a.download = "mycv.pdf"; // Puedes cambiar el nombre del archivo aquí
+            a.download = "mycv.pdf";
             document.body.appendChild(a);
             a.click();
             document.body.removeChild(a);
